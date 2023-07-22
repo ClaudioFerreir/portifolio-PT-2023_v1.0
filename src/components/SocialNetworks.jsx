@@ -5,8 +5,7 @@ import '../styles/components/socialnetworks.sass'
 const socialNetworks = [
   {name: 'LinkedIn', url: 'https://www.linkedin.com/in/claudioferreirajr/', icon: FaLinkedin},
   {name: 'GitHub', url: 'https://github.com/ClaudioFerreir', icon: FaGithub},
-  {name: 'Email', url: 'mailto:claudioferreirajr@aol.com', icon: FaEnvelope}
-]
+  ]
 
 const SocialNetworks = () => {
   return <section id="social-networks">
