@@ -1,0 +1,35 @@
+@use '../variables'
+@use '../mixins'
+  
+#main-content
+  background-color: variables.$bg-color
+  flex: 2 1 0
+  border-radius: variables.$container-border-radius
+  padding: 3rem
+
+  section
+    display: flex
+    flex-direction: column
+
+  h2
+    @include mixins.subtitle
+    @include mixins.center
+    justify-content: start
+    gap: 1rem
+
+    &:after
+      @include mixins.gradient-border
+
+  p
+    @include mixins.Standart-text
+
+  .btn
+    @include mixins.btn
+    align-self: start
+
+@media screen and (max-width: variables.$mobile) 
+  #main-content
+    padding: 1rem
+
+    p
+      font-size: .8rem

@@ -1,0 +1,38 @@
+@use '../variables'
+
+#root
+  display: flex
+  justify-content: center
+
+#portfolio
+  display: flex
+  justify-self: center
+  max-width: variables.$tablet
+  justify-content: center
+  flex-wrap: wrap
+  padding: 1rem
+  gap: 1rem
+
+  h1
+    width: 100%
+    font-size: 5rem
+    margin-bottom: 4rem
+    background: variables.$gradient
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+@media screen and (max-width: variables.$mobile)
+  #portfolio
+    padding: 1rem
+    justify-content: center
+
+    h1
+      font-size: 3rem
+      margin-top: 3rem
+      margin-bottom: 5rem 
+      text-align: center
+    
+@media screen and (max-width: variables.$tablet)
+  #portfolio
+    padding: 1rem
+    gap: 1rem
