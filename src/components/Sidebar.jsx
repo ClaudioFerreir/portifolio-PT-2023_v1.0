@@ -5,7 +5,6 @@ import '../styles/components/sidebar.sass'
 import '../styles/components/socialnetworks.sass'
 
 import Avatar from '../img/FotoCV.jpg'
-import CV from '../documents/ClaudioFerreira_Resume.pdf'
 
 const Sidebar = () => {
   return (
