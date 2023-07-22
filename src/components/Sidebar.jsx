@@ -14,7 +14,7 @@ const Sidebar = () => {
       <p className="title">Desenvolvedor Full Stack</p>
       <SocialNetwork />
       <InformationContainer />
-      <a href={CV} className="btn" target='_blank'>
+      <a href="https://flowcv.com/resume/6sa436pw1a" className="btn" target='_blank'>
         Ver currículo
       </a>
     </aside>
