@@ -52,7 +52,7 @@ const ProjectsContainer = () => {
       <div className='project-card'>
         <div className="card-info">
           <p>
-          A página foi baseada em HTML e CSS, e apresenta uma estrutura comumente encontrada em muitos sites. Há imagens e vídeos, além de um formulário de contato. O objetivo foi criar uma página com design atraente, e elementos bem estruturados e estilizados, usando HTML e CSS.
+          A página foi baseada em HTML e CSS, e apresenta uma estrutura comumente encontrada em muitos sites. Há imagens e vídeos, além de um formulário de contato. O objetivo foi criar uma página com design atraente, e elementos bem estruturados e estilizados, usando HTML e CSS. <b>*A página não é responsiva.*</b>
           </p>
           <a href="https://projeto-doceria-two.vercel.app/?vercelToolbarCode=V_GaZ_g8wfQ7-dl" target="_blank" className="btn">
           Ver Projeto
